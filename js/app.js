@@ -32,6 +32,7 @@ class Presupuesto {
     }
 
     nuevoGasto(gasto) {
+        
         this.gasto = [...this.gasto, gasto];
         this.calcularRestante();
     }
